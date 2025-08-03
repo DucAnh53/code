@@ -1,3 +1,4 @@
+
 /* header */
 .header {
     position: sticky;
@@ -209,21 +210,51 @@ ion-icon:hover {
 .header__right-info-support {
     width: 53px;
     padding: 12px 8px;
+
+}
+
+.header__right-info-support-icon {
+    font-size: 1.4rem;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.header__right-info-support ion-icon {
-    font-size: 1.4rem;
-}
-
 .header__right-info-support-list {
+    position: absolute;
     height: 560px;
-    width: 170px;
-    background-color: #ffffff;
+    width: 167px;
+    display: flex;
+    flex-direction: column;
 }
 
+.header__right-info-support-items-1 {
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    list-style: none;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+}
+
+.header__right-info-support-items-1 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+.header__right-info-support-items-2 {
+    height: 300px;
+    width: 100%;
+    border: 1px solid #ffffff;
+}
+
+.header__right-info-support-items-3 {
+    height: 130px;
+    width: 100%;
+    border: 1px solid #ffffff;
+}
 
 
 /* middle */
