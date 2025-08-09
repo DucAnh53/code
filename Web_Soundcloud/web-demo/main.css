@@ -1,0 +1,360 @@
+
+
+/* header */
+.header {
+    position: sticky;
+    height: 46px;
+    width: 100%;
+    max-width: 2000px;
+    display: flex;
+    font-size: 1rem;
+    font-weight: 600;
+    z-index: 1000;
+    top: 0;
+    background-color: #121212;
+}
+
+.header-container {
+    max-width: 1257px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    align-content: center;     
+    margin: 0 auto;
+    padding: 0 16px 0 16px;    
+    flex-wrap: wrap;
+}
+
+/* header_left */
+.header__left {
+    max-height: 100%;  
+    width: 258px;
+    white-space: normal;
+    word-wrap: break-word;
+    box-sizing: border-box;
+
+}
+
+.header__left-menu {
+    display: flex;
+    
+}
+
+.header__left-logo img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    width: 48px;
+    overflow: hidden;
+    
+}
+
+.header__left-logo {
+    display: flex;
+    align-items: center;
+    padding-right: 8px;
+}
+
+
+.header__left-navbar {
+    display: flex;
+    box-sizing: border-box;
+    margin-right: 0;
+}
+
+.header__left-list li {
+    padding: 0 8px;
+}
+
+.header__left-list a {
+    text-decoration: none;  
+    justify-content: center;
+    font-weight: 5rem;
+    color: rgb(153, 153, 153);
+    border-bottom: 2px solid transparent;
+    padding-bottom: 14px;
+    transition: border-color 0.3s;
+}
+
+.header__left-list li a:hover {
+    color: aliceblue;
+    border-bottom: 2px solid #ffffff;
+    
+}
+
+
+.header__left-list {
+    
+    list-style: none;
+    display: flex;
+    padding: 0;
+    align-items: center;
+}
+
+/* header__right */
+.header__right {
+    height: 50px;
+    max-height: 100%;
+    width: 476px;
+    overflow: hidden;
+    white-space: normal;
+    word-wrap: break-word;
+    box-sizing: border-box;
+
+}
+
+.header__right-menu {
+    height: 50px;
+    max-height: 100%;
+    display: flex;
+    
+}
+
+.header__right-list {
+    list-style: none;
+    display: flex;
+    height: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__right-list-item {
+    margin: 0 8px;
+}
+
+.header__right-list-item a{
+    text-decoration: none;
+    margin-right: 16px;
+    color: rgb(153, 153, 153);
+    border-bottom: 2px solid transparent;
+    padding-bottom: 14px;
+    transition: border-color 0.3s;
+}
+
+.header__right-list-item a:hover {
+    color: aliceblue;
+    border-bottom: 2px solid #ffffff;
+}
+
+.header__right-list-item-color {
+    margin: 0 8px;
+    
+}
+
+.header__right-list-item-color a{
+    text-decoration: none;
+    /* padding: 13px 8px; */
+    color: #ff5504;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 14px;
+    transition: border-color 0.3s;
+}
+
+.header__right-list-item-color a:hover {
+    color: aliceblue;
+    border-bottom: 2px solid #ffffff;
+}
+
+.header__right-navbar {
+    /* max-width: 64%; */
+    max-height: 100%;
+    width: 400px;
+}
+
+.header__right-info {
+    display: flex;
+    width: 170px;
+    color: rgb(153, 153, 153);
+}
+
+ion-icon:hover {
+    color: #ffffff;
+}
+
+.header__right-info-user {
+    width: 90px;
+    
+}
+
+.header__right-info-user ion-icon {
+    font-size: 1.4rem;
+    padding: 8px;
+}
+
+
+.header__right-info-user-name img{
+    /* max-width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    width: 48px;
+    overflow: hidden;
+    flex: 1;
+    position: relative;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    top: 5px;
+    right: -2px; */
+}
+
+.header__right-info-user-icon {
+    
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__right-info-user-icon ion-icon{
+    padding-right: 10px;
+}
+
+.header__right-info-support-icon {
+    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+/* middle */
+.header__middle {
+    max-width: 100%;
+    width: 490px;
+    height: 46px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box {
+    color: #818181;
+    
+}
+
+.search-box input {    
+    padding: 0 0 0 15px;
+    margin: 0 16px;
+    font-size: 11pt; 
+    width: 450px;
+    height: 36px;
+    background: #303030;
+    float: left;
+    border: none;
+    border-radius: 3px;
+    color: #ff5504;
+    transition: all .3s ease-in-out;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+}
+
+
+.fa-solid {
+    position: absolute;
+    top: 50%;
+    margin-left: -57px;
+    margin-top: -11px;
+    z-index: 1;
+    color: #818181;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+/* body*/
+
+.content {
+
+    
+}
+
+.container {
+    display: flex;
+    max-width: 100%;
+    width: 1257px;
+    height: 2600px;
+    padding: 0 16px;
+    margin: 0 auto;
+}
+
+/* left */
+.container_left {
+    padding: 24px 32px 0 0;
+    width: 840px;
+     overflow: hidden; /*ẩn phần bị tràn ra ngoài */
+}
+
+.container_left-list-1 {
+    color: #ffffff;
+    
+}
+
+.container_left-list-1 h2 {
+    padding-top: 8px;
+    margin-left: 16px;
+}
+
+.container__slider {
+    display: flex;
+    flex: 0 0 auto;
+    width: 848px;
+    height: 264px;
+    padding: 8px 0 48px 0;
+    margin: 8px 0 0 16px;
+    overflow-x: hidden;
+}
+
+.container_left-list-links {
+    width: 191px;
+    height: 208px;
+    padding-right: 32px;
+    
+}
+
+.container_left-list-item-img img {
+    width: 159px;
+    height: 159px;
+    border-radius: 5px;
+}
+
+.container_left-list-item-title {
+    color: #ffffff;
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;         /* Không xuống dòng */
+    overflow: hidden;            /* Ẩn phần tràn */
+    text-overflow: ellipsis;     /* Hiển thị dấu ba chấm */
+    width: 150px;
+    font-weight: 600; 
+    font-size: 0.9rem;  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+.container_left-list-links-creator {
+    padding-top: 5px;
+    color: #888888;
+    display: block;
+    text-decoration: none;
+    white-space: nowrap;         /* Không xuống dòng */
+    overflow: hidden;            /* Ẩn phần tràn */
+    text-overflow: ellipsis;     /* Hiển thị dấu ba chấm */
+    width: 150px;
+    font-weight: 600; 
+    font-size: 0.9rem;  
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;  
+}
+
+
+
+
+
+
+
+
+
+
+
