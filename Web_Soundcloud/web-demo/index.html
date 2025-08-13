@@ -1,0 +1,768 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soundcloud</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="dropnow.css">
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div id="app">
+        <div class="header">
+            <div class="header-container">
+                <div class="header__left">
+                    <div class="header__left-menu">
+                        <div class="header__left-logo">
+                            <a href=""><img src="img/logo.png" alt=""></a>
+                            
+                        </div>
+                        <div class="header__left-navbar">
+                            <ul class="header__left-list">
+                                <li>
+                                    <a href="#">Home</a>
+                                </li>    
+                                <li>
+                                    <a href="#">Feed</a>
+                                </li>
+                                <li>
+                                    <a href="#">Library</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="header__middle">
+                    <form class="search-box" action="/search">
+                        <input type="text" placeholder="Search" name="search">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </form>
+
+                </div>
+
+                <div class="header__right">
+                    <div class="header__right-menu">
+                        <div class="header__right-navbar">
+                            <ul class="header__right-list">
+                                <li class="header__right-list-item-color">
+                                    <a href="#">Try Artist Pro</a>
+                                </li>
+                                <li class="header__right-list-item">
+                                    <a href="#">For Artists</a>
+                                </li>
+                                <li class="header__right-list-item">
+                                    <a href="#">Upload</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="header__right-info">
+                            <div class="header__right-info-user">
+                                <div class="header__right-info-user-name">
+                                    <!-- <img src="img/avt.jpg" alt=""> -->
+                                   <!-- <ion-icon name="chevron-down-outline"></ion-icon> -->
+                                </div>
+                                <div class="header__right-info-user-icon">
+                                    <ion-icon name="notifications-outline"></ion-icon>
+                                    <ion-icon name="mail-outline"></ion-icon>
+                                </div>
+                            </div>
+                            <div class="header__right-info-support">
+                                <div class="right-info-support"></div>
+                                <span class="header__right-info-support-icon">
+                                    <ion-icon name="ellipsis-horizontal-outline"></ion-icon>
+                                </span>
+                                <div class="header__right-info-support-list">
+                                    <ul class="header__right-info-support-items-1">
+                                        <li>About us</li>
+                                        <li>Legal</li>
+                                        <li>Copyright</li>
+                                    </ul>
+                                    <ul class="header__right-info-support-items-2">
+                                        <li>Mobile apps</li>
+                                        <li>For Creators</li>
+                                        <li>Blog</li>
+                                        <li>Support</li>
+                                        <li>Developers</li>
+                                        <li>Soundcloud Store</li>
+                                    </ul>
+                                    <ul class="header__right-info-support-items-1">
+                                        <li >Subscription</li>
+                                        <li >Settings</li>
+                                        <li >Sign out</li>
+                                    </ul>
+                                </div> 
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>          
+            </div>
+        </div>
+        <div class="content">
+            <div class="container">
+                <div class="container_left">
+                    <div class="container_left-list-1">
+                        <h2>More of what you like </h2>
+                        <div class="container__slider">
+                            <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/tothichcau.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Tớ Thích Cậu - HanSara
+                                    </a>
+                                    <span class="container_left-list-links-creator">TrungLinh, Quan, Huỳnh Thanh Tú, dyn_ngyn</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/mèo vàng.jpg" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Em Không Hiểu - Danxi Remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Danxi, Zoanh 💤, muadongtokyo, Yusei.</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/anhsang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        TÂM TRÍ LANG THANG (ZANG REMIX) - ÁNH SÁNG AZA FT. NEGAV
+                                    </a>
+                                    <span class="container_left-list-links-creator">ZANG, Hoàng Thạch, quiniel.here, Zetta Brou</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/trunghoang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Xi Măng Phố VOL 12 ( FULL ) - Trung Hoàng
+                                    </a>
+                                    <span class="container_left-list-links-creator">Trung Hoàng, 𝑻𝒓𝒖𝒐𝒏𝒈🎶, Thanh Phong, DJ Mr.T</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/4.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        tình yêu ngủ quên x klag remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Mr.Sugar 🔱, m1n6, Nguyen Phuc, VietHai</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/5.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Stay With Me - (phonk) by Kerous/秋成
+                                    </a>
+                                    <span class="container_left-list-links-creator">Михаил, YJ, cs_ngaan, LVH Musix</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_left-list-1">
+                        <h2>Recently Played</h2>
+                        <div class="container__slider">
+                            <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/tothichcau.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Tớ Thích Cậu - HanSara
+                                    </a>
+                                    <span class="container_left-list-links-creator">TrungLinh, Quan, Huỳnh Thanh Tú, dyn_ngyn</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/mèo vàng.jpg" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Em Không Hiểu - Danxi Remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Danxi, Zoanh 💤, muadongtokyo, Yusei.</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/anhsang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        TÂM TRÍ LANG THANG (ZANG REMIX) - ÁNH SÁNG AZA FT. NEGAV
+                                    </a>
+                                    <span class="container_left-list-links-creator">ZANG, Hoàng Thạch, quiniel.here, Zetta Brou</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/trunghoang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Xi Măng Phố VOL 12 ( FULL ) - Trung Hoàng
+                                    </a>
+                                    <span class="container_left-list-links-creator">Trung Hoàng, 𝑻𝒓𝒖𝒐𝒏𝒈🎶, Thanh Phong, DJ Mr.T</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/4.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        tình yêu ngủ quên x klag remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Mr.Sugar 🔱, m1n6, Nguyen Phuc, VietHai</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/5.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Stay With Me - (phonk) by Kerous/秋成
+                                    </a>
+                                    <span class="container_left-list-links-creator">Михаил, YJ, cs_ngaan, LVH Musix</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_left-list-1">
+                        <h2>Mixed for DucAnh</h2>
+                        <div class="container__slider">
+                            <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/tothichcau.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Tớ Thích Cậu - HanSara
+                                    </a>
+                                    <span class="container_left-list-links-creator">TrungLinh, Quan, Huỳnh Thanh Tú, dyn_ngyn</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/mèo vàng.jpg" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Em Không Hiểu - Danxi Remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Danxi, Zoanh 💤, muadongtokyo, Yusei.</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/anhsang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        TÂM TRÍ LANG THANG (ZANG REMIX) - ÁNH SÁNG AZA FT. NEGAV
+                                    </a>
+                                    <span class="container_left-list-links-creator">ZANG, Hoàng Thạch, quiniel.here, Zetta Brou</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/trunghoang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Xi Măng Phố VOL 12 ( FULL ) - Trung Hoàng
+                                    </a>
+                                    <span class="container_left-list-links-creator">Trung Hoàng, 𝑻𝒓𝒖𝒐𝒏𝒈🎶, Thanh Phong, DJ Mr.T</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/4.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        tình yêu ngủ quên x klag remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Mr.Sugar 🔱, m1n6, Nguyen Phuc, VietHai</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/5.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Stay With Me - (phonk) by Kerous/秋成
+                                    </a>
+                                    <span class="container_left-list-links-creator">Михаил, YJ, cs_ngaan, LVH Musix</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_left-list-1">
+                        <h2>Made for you</h2>
+                        <div class="container__slider">
+                            <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/tothichcau.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Tớ Thích Cậu - HanSara
+                                    </a>
+                                    <span class="container_left-list-links-creator">TrungLinh, Quan, Huỳnh Thanh Tú, dyn_ngyn</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/mèo vàng.jpg" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Em Không Hiểu - Danxi Remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Danxi, Zoanh 💤, muadongtokyo, Yusei.</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/anhsang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        TÂM TRÍ LANG THANG (ZANG REMIX) - ÁNH SÁNG AZA FT. NEGAV
+                                    </a>
+                                    <span class="container_left-list-links-creator">ZANG, Hoàng Thạch, quiniel.here, Zetta Brou</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/trunghoang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Xi Măng Phố VOL 12 ( FULL ) - Trung Hoàng
+                                    </a>
+                                    <span class="container_left-list-links-creator">Trung Hoàng, 𝑻𝒓𝒖𝒐𝒏𝒈🎶, Thanh Phong, DJ Mr.T</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/4.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        tình yêu ngủ quên x klag remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Mr.Sugar 🔱, m1n6, Nguyen Phuc, VietHai</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/5.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Stay With Me - (phonk) by Kerous/秋成
+                                    </a>
+                                    <span class="container_left-list-links-creator">Михаил, YJ, cs_ngaan, LVH Musix</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_left-list-1">
+                        <h2>Discover with Stations</h2>
+                        <div class="container__slider">
+                            <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/tothichcau.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Tớ Thích Cậu - HanSara
+                                    </a>
+                                    <span class="container_left-list-links-creator">TrungLinh, Quan, Huỳnh Thanh Tú, dyn_ngyn</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/mèo vàng.jpg" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Em Không Hiểu - Danxi Remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Danxi, Zoanh 💤, muadongtokyo, Yusei.</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/anhsang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        TÂM TRÍ LANG THANG (ZANG REMIX) - ÁNH SÁNG AZA FT. NEGAV
+                                    </a>
+                                    <span class="container_left-list-links-creator">ZANG, Hoàng Thạch, quiniel.here, Zetta Brou</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/trunghoang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Xi Măng Phố VOL 12 ( FULL ) - Trung Hoàng
+                                    </a>
+                                    <span class="container_left-list-links-creator">Trung Hoàng, 𝑻𝒓𝒖𝒐𝒏𝒈🎶, Thanh Phong, DJ Mr.T</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/4.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        tình yêu ngủ quên x klag remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Mr.Sugar 🔱, m1n6, Nguyen Phuc, VietHai</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/5.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Stay With Me - (phonk) by Kerous/秋成
+                                    </a>
+                                    <span class="container_left-list-links-creator">Михаил, YJ, cs_ngaan, LVH Musix</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_left-list-1">
+                        <h2>Trending by genre</h2>
+                        <div class="container__slider">
+                            <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/tothichcau.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Tớ Thích Cậu - HanSara
+                                    </a>
+                                    <span class="container_left-list-links-creator">TrungLinh, Quan, Huỳnh Thanh Tú, dyn_ngyn</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/mèo vàng.jpg" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Em Không Hiểu - Danxi Remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Danxi, Zoanh 💤, muadongtokyo, Yusei.</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/anhsang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        TÂM TRÍ LANG THANG (ZANG REMIX) - ÁNH SÁNG AZA FT. NEGAV
+                                    </a>
+                                    <span class="container_left-list-links-creator">ZANG, Hoàng Thạch, quiniel.here, Zetta Brou</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/trunghoang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Xi Măng Phố VOL 12 ( FULL ) - Trung Hoàng
+                                    </a>
+                                    <span class="container_left-list-links-creator">Trung Hoàng, 𝑻𝒓𝒖𝒐𝒏𝒈🎶, Thanh Phong, DJ Mr.T</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/4.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        tình yêu ngủ quên x klag remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Mr.Sugar 🔱, m1n6, Nguyen Phuc, VietHai</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/5.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Stay With Me - (phonk) by Kerous/秋成
+                                    </a>
+                                    <span class="container_left-list-links-creator">Михаил, YJ, cs_ngaan, LVH Musix</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_left-list-1">
+                        <h2>Curated to your taste</h2>
+                        <div class="container__slider">
+                            <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/tothichcau.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Tớ Thích Cậu - HanSara
+                                    </a>
+                                    <span class="container_left-list-links-creator">TrungLinh, Quan, Huỳnh Thanh Tú, dyn_ngyn</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/mèo vàng.jpg" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Em Không Hiểu - Danxi Remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Danxi, Zoanh 💤, muadongtokyo, Yusei.</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/anhsang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        TÂM TRÍ LANG THANG (ZANG REMIX) - ÁNH SÁNG AZA FT. NEGAV
+                                    </a>
+                                    <span class="container_left-list-links-creator">ZANG, Hoàng Thạch, quiniel.here, Zetta Brou</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/trunghoang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Xi Măng Phố VOL 12 ( FULL ) - Trung Hoàng
+                                    </a>
+                                    <span class="container_left-list-links-creator">Trung Hoàng, 𝑻𝒓𝒖𝒐𝒏𝒈🎶, Thanh Phong, DJ Mr.T</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/4.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        tình yêu ngủ quên x klag remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Mr.Sugar 🔱, m1n6, Nguyen Phuc, VietHai</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/5.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Stay With Me - (phonk) by Kerous/秋成
+                                    </a>
+                                    <span class="container_left-list-links-creator">Михаил, YJ, cs_ngaan, LVH Musix</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="container_left-list-1">
+                        <h2>Artists to watch out for</h2>
+                        <div class="container__slider">
+                            <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/tothichcau.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Tớ Thích Cậu - HanSara
+                                    </a>
+                                    <span class="container_left-list-links-creator">TrungLinh, Quan, Huỳnh Thanh Tú, dyn_ngyn</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/mèo vàng.jpg" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Em Không Hiểu - Danxi Remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Danxi, Zoanh 💤, muadongtokyo, Yusei.</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/anhsang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        TÂM TRÍ LANG THANG (ZANG REMIX) - ÁNH SÁNG AZA FT. NEGAV
+                                    </a>
+                                    <span class="container_left-list-links-creator">ZANG, Hoàng Thạch, quiniel.here, Zetta Brou</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/trunghoang.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Xi Măng Phố VOL 12 ( FULL ) - Trung Hoàng
+                                    </a>
+                                    <span class="container_left-list-links-creator">Trung Hoàng, 𝑻𝒓𝒖𝒐𝒏𝒈🎶, Thanh Phong, DJ Mr.T</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/4.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        tình yêu ngủ quên x klag remix
+                                    </a>
+                                    <span class="container_left-list-links-creator">Mr.Sugar 🔱, m1n6, Nguyen Phuc, VietHai</span>
+                            </div>
+                             <div class="container_left-list-links"> 
+                                    <div class="container_left-list-item-img">
+                                        <img src="img/5.png" alt="">
+                                    </div>
+                                    <a href="" class="container_left-list-item-title">
+                                        Stay With Me - (phonk) by Kerous/秋成
+                                    </a>
+                                    <span class="container_left-list-links-creator">Михаил, YJ, cs_ngaan, LVH Musix</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+                </div>
+                <div class="container_right">
+                    <div class="container_right-slider">
+                        <div class="container_right-slider-module">
+                            <h5 class="SliderModule_h5">ARTIST TOOLS</h5>
+                            <div class="SliderModule_upgrade">
+                                <div class="SliderModule_Update">
+                                    <div class="SliderModule_Update-list">
+                                        <img src="img/svgviewer.png" alt="">
+                                        <a href="" class="SliderModule_Update-litle">Amplify</a>
+                                    </div>
+                                    <div class="SliderModule_Update-list">
+                                        <img src="img/svgviewer-output (2).png" alt="">
+                                        <a href="" class="SliderModule_Update-litle">Replace</a>
+                                    </div>
+                                    <div class="SliderModule_Update-list">
+                                        <img src="img/svgviewer-output (3).png" alt="">
+                                        <a href="" class="SliderModule_Update-litle">Distribute</a>
+                                    </div>
+                                    <div class="SliderModule_Update-list">
+                                        <img src="img/svgviewer-output (4).png" alt="">
+                                        <a href="" class="SliderModule_Update-litle">Master</a>
+                                    </div>
+                                </div>
+                                <div class="SliderModule_unlock-update">
+                                    <a href="" class="SliderModule_unlock-update-link">
+                                        <img src="img/svgviewer-icon.png" alt="">
+                                        Unlock Artist tools from ₫40,000/month.
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="container_right-follow-module">
+                            <div class="container_right-FollowModule">
+                                <div class="FollowModule_text">
+                                    <a href="">ARTISTS YOU SHOULD FOLLOW</a>
+                                </div>
+                                <div class="FollowModule_text-gray">
+                                    <a href="">Refresh list</a>
+                                </div>
+                                
+                            </div>
+                            <div class="container_right-follower-list">
+                                <div class="follower_list">
+                                    <div class="followers_informationUser-avatar">
+                                        <img src="img/img.jpg" alt="">
+                                    </div>
+                                    <div class="followers_information">
+                                        <a href="" class="followers_information-name">Yang Remix</a>
+                                        <div class="followers_information-user">
+                                            <a class="followers_informationUser">
+                                                <img src="img/svgviewer-output 2.svg" alt="">
+                                                10.000
+                                            </a>
+                                            <a class="followers_informationUser">
+                                                <img src="img/svgviewer-track.svg" alt="">
+                                                1M
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="button">
+                                        <button style="border: none;" class="button_Follow">
+                                            <span class="sc-button-label">Follow</span>
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+                                <div class="follower_list">
+                                    <div class="followers_informationUser-avatar">
+                                        <img src="img/img.jpg" alt="">
+                                    </div>
+                                    <div class="followers_information">
+                                        <a href="">Yang Remix</a>
+                                        <div class="followers_information-user">
+                                            <a class="followers_informationUser">
+                                                <img src="img/svgviewer-output 2.svg" alt="">
+                                                10.000
+                                            </a>
+                                            <a class="followers_informationUser">
+                                                <img src="img/svgviewer-track.svg" alt="">
+                                                1M
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="button">
+                                        <button style="border: none;" class="button_Follow">
+                                            <span class="sc-button-label">Follow</span>
+                                        </button>
+                                    </div>
+                                    
+                                </div>
+                                <div class="follower_list">
+                                    <div class="followers_informationUser-avatar">
+                                        <img src="img/img.jpg" alt="">
+                                    </div>
+                                    <div class="followers_information">
+                                        <a href="">Yang Remix</a>
+                                        <div class="followers_information-user">
+                                            <a class="followers_informationUser">
+                                                <img src="img/svgviewer-output 2.svg" alt="">
+                                                10.000
+                                            </a>
+                                            <a class="followers_informationUser">
+                                                <img src="img/svgviewer-track.svg" alt="">
+                                                1M
+                                            </a>
+                                        </div>
+                                        
+                                    </div>
+                                    <div class="button">
+                                        <button style="border: none;" class="button_Follow">
+                                            <span class="sc-button-label">Follow</span>
+                                        </button>
+                                    </div>
+                                    
+                                </div>       
+                            </div>
+                        </div>
+
+                        <div class="container_right-likes-module">
+                            <div class="container_right-LikesModule">
+                                <div class="LikesModule_text">
+                                    <a href="">105 likes</a>
+                                </div>
+                                <div class="LikesModule_text-gray">
+                                    <a href="">View all</a>
+                                </div>
+                                
+                            </div>
+                            <div class="container_right-likes-list">
+                                <div class="LikesModule_link">
+                                    <a href="">A Pha</a>
+                                </div>
+                                <h5><a href="#">niu duyen remix</a></h5>
+                                <div class="LikesModule_interact-play">
+                                    <img src="img/svgviewer-play-output.png" alt="">
+                                    20k
+                                </div>
+                                <div class="LikesModule_interact-like">
+                                    <img src="img/svgviewer-like-output (1).png" alt="">
+                                    1.000
+                                </div>
+                                <div class="LikesModule_interact-repeat">
+                                    <img src="img/svgviewer-repeat-output.png" alt="">
+                                    20
+                                </div>
+                                <div class="LikesModule_interact-comment">
+                                    <img src="img/svgviewer-comment-output (2).png" alt="">
+                                    10.000
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="container_right-module-history">
+
+                        </div>
+
+                        <div class="container_right-mobileapp">
+
+                        </div>
+
+                        <div class="container_right-publisher">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+    </div>
+    
+</body>
+</html>

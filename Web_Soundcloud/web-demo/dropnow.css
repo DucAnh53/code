@@ -1,0 +1,342 @@
+
+.header__right-info-support {
+    width: 53px;
+    padding: 12px 8px;
+    cursor: pointer;
+    
+}
+
+.header__right-info-support:hover {
+.header__right-info-support-list {
+    display: flex;
+
+}
+}
+
+.right-info-support {
+    position: absolute;
+    height: 40px;
+    width: 57px;
+    flex-direction: column;
+    align-items: center;
+    right: 160px;
+    top: 45px;
+    z-index: -1;
+    
+}
+
+.header__right-info-support-list {
+    position: absolute;
+    height: 380px;
+    width: 167px;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 3px;
+    border: 1px solid #888;
+    right: 160px;
+    top: 45px;
+    display: none;
+    background-color: #121212;
+}
+
+
+.header__right-info-support-items-1 {
+    position: relative;
+    width: 100%;
+    height: 90px;
+    list-style: none;
+    color: #ffffff;
+    border-bottom: 1px solid #8888;
+    display: flex;
+    padding: 5px 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+
+}
+
+.header__right-info-support-items-1 li {
+    display: flex;
+    justify-content: left;
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+}
+
+.header__right-info-support-items-1 li:hover {
+    color: #888;
+}
+
+.header__right-info-support-items-2 {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    list-style: none;
+    color: #ffffff;
+    border-bottom: 1px solid #888;
+    display: flex;
+    padding: 5px 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+.header__right-info-support-items-2 li {
+    display: flex;
+    justify-content: left;
+    color: #ffffff;
+    position: relative;
+    cursor: pointer;
+}
+
+.header__right-info-support-items-2 li:hover {
+    color: #888;
+}
+/*---------------------------------------*/
+.container_right {
+    height: 2576px;
+    width: 386px;
+    
+}
+
+.container_right-slider {
+    height: 2576px;
+    width: 386px;
+    padding: 25px 0 0 32px;
+}
+
+.container_right-slider-module {
+    width: 360px;
+    height: 180px;
+    margin-bottom: 25px;
+}
+
+.SliderModule_h5 {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 25px;
+    border-bottom: 1px solid #8888;
+}
+
+.SliderModule_Update {
+    position: relative;
+    margin-top: 16px;
+    display: flex;
+    height: 84px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
+}   
+
+.SliderModule_Update-list {
+    width: 75px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8px 0;
+    cursor: pointer;
+    border: 1px solid #8888;
+    border-radius: 10px;
+    
+}
+
+
+.SliderModule_Update-list img {
+    margin: 4px;
+    height: 32px;
+    width: 25px;
+    display: flex;
+}
+
+.SliderModule_Update-list a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+} 
+
+.SliderModule_unlock-update {
+    position: relative;
+    height: 45px;
+    background-color: #322c5a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 12px;
+}
+
+.SliderModule_unlock-update-link {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 8px 0;
+    font-size: 15px;
+}
+
+.SliderModule_unlock-update-link img {
+    position: absolute;
+    height: 15px;
+    left: 15px;
+    top: 15px;
+}
+
+/* ---------------Follow Module------------------ */
+.container_right-follow-module {
+    height: 234px;
+    width: 100%;
+    position: relative;
+    
+}
+
+.container_right-FollowModule {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.FollowModule_text a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.FollowModule_text a:hover {
+    color: #888;
+}
+
+.FollowModule_text-gray a{
+    color: #8888;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    padding-bottom: 2px;
+    border-bottom: 2px solid transparent;
+}
+
+.FollowModule_text-gray a:hover {
+    border-bottom: 1px solid #888;
+
+}
+
+.container_right-follower-list {
+    height: 100%;
+    width: 100%;
+    
+}
+
+.follower_list {
+    display: flex;
+    margin-top: 20px;
+    width: 354px;
+    
+}
+
+.followers_informationUser-avatar img{
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.followers_information {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 5px;
+}
+
+.followers_information a {
+    display: flex;
+    align-items: center;
+    height: 50%;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 600;
+    display: flex;
+}
+
+.followers_information-name:hover {
+    color: #5e5e5e;
+}
+
+.followers_information-user {
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.followers_informationUser {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.followers_informationUser:hover {
+    color: #5e5e5e;
+    
+}
+
+.followers_informationUser img {
+    width: 16px;
+    height: 16px;
+}
+
+.followers_informationMinistatc img{
+    width: 16px;
+    height: 16px;
+}
+
+.button {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.button_Follow {
+    border-radius: 5px;
+    width: 77px;
+    height: 36px;
+    color: #5e5e5e;
+    border-color: transparent;
+    &:hover {
+    transform: translateY(-0.05em);
+    box-shadow: 0 0 0.5em 0em ;
+
+  }
+}
+
+.sc-button-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    font-weight: 600;
+    padding: 3px;
+    font-size: 15px;
+}
+
+/* -------------Likes Mudole---------------- */
+.container_right-likes-module {
+    height: 234px;
+    width: 100%;
+    position: relative;
+}
+
+.container_right-LikesModule {
+    
+}
